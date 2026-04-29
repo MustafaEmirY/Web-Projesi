@@ -3,13 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Teknolojileri Projesi</title>
+    <title>Ana Sayfa | Web Teknolojileri Projesi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="container text-center mt-5">
-        <h1>Proje Altyapısı Hazır</h1>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Web Projem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Hakkında</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">Özgeçmiş</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sehir.html">Şehrim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="miras.html">Mirasımız</a></li>
+                    <li class="nav-item"><a class="nav-link" href="api.html">İlgi Alanlarım</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="login.html">Giriş Yap</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 mb-5">
+        <div class="row align-items-center bg-white p-4 rounded shadow-sm">
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="images/profil.jpg" alt="Mustafa Profil" class="img-fluid rounded-circle shadow" style="max-width: 250px;">
+                <h3 class="mt-3">Mustafa Emir Yılmaz</h3>
+                <p class="text-muted">Bilgisayar Mühendisliği Öğrencisi</p>
+                <div class="d-flex justify-content-center gap-3 mt-3">
+                    <a href="https://github.com/MustafaEmirY" target="_blank" class="btn btn-outline-dark btn-sm">GitHub Profile</a>
+                    <a href="https://www.linkedin.com/in/mustafa-emir-yılmaz-8128b7320" target="_blank" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <h1 class="border-bottom pb-2">Hakkımda</h1>
+                <p class="lead">Merhaba, Sakarya Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisiyim.</p>
+                <p>
+                    Genel olarak yazılım geliştirme, gömülü sistemler ve donanım entegrasyonu üzerine çalışıyorum. 
+                    C/C++ ile bare-metal programlama alanında kendimi geliştiriyorum. 
+                    Şu sıralar gömülü sistemler ve donanım alanında kendi girişimimi kurma hedefiyle, geliştirmeyi planladığım ürünün teknik altyapısı ve pazar ihtiyaçları üzerine araştırmalar yürütüyorum.
+                </p>
+                
+                <h5 class="mt-4">Hobilerim ve İlgi Alanlarım</h5>
+                <ul>
+                    <li>Gömülü sistem mimarileri ve gömülü yazılım geliştirme.</li>
+                    <li>Film ve dizi izlemek.</li>
+                    <li>Silahlar ve atıcılık.</li>
+                    <li>Yapay zeka araçlarını kullanarak müzik üretimi ve rap altyapıları denemeleri yapmak.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4 bg-white p-4 rounded shadow-sm">
+            <div class="col-12 text-center">
+                <h4 class="mb-3">İlgimi Çeken Bir Proje</h4>
+                <p class="text-muted">Çakır Seyir Füzesi</p>
+                <div class="ratio ratio-16x9 w-75 mx-auto">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G6CcaGkBBIs?si=OE3Ggxvp76onpA6F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

@@ -2,3 +2,54 @@
     height: 500px;
     object-fit: cover;
 }
+
+/* Efsane Kadro Saha Tasarımı */
+.pitch-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px; 
+    height: 700px;
+    background-image: url('../images/saha.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.player {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 1px 1px 3px black; 
+    transform: translate(-50%, -50%); 
+}
+
+.player .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #800000;
+    color: #fff;
+    border: 2px solid #00BFFF;
+    border-radius: 50%;
+    margin: 0 auto 4px auto;
+    font-size: 14px;
+}
+
+.gk { top: 88%; left: 50%; }
+.lb { top: 70%; left: 15%; }
+.cb1 { top: 75%; left: 35%; }
+.cb2 { top: 75%; left: 65%; }
+.rb { top: 70%; left: 85%; }
+.lm { top: 45%; left: 20%; }
+.cm { top: 50%; left: 50%; }
+.rm { top: 45%; left: 80%; }
+.lw { top: 20%; left: 25%; }
+.rw { top: 20%; left: 75%; }
+.st { top: 10%; left: 50%; }
